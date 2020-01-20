@@ -504,6 +504,10 @@ section.section-background {
         flex: 0 0 calc(6 / 12 * 100%);
     }
 
+    .main-header {
+        padding: 10px;
+    }
+
     .main-header__nav .nav__items {
         position: fixed;
         left: 0;
@@ -525,6 +529,11 @@ section.section-background {
 
     .main-header__title {
         width: 70%;
+    }
+
+    .main-header__title h1 {
+        font-size: 19px;
+        padding-bottom: 0;
     }
 }
 
